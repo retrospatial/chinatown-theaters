@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
+        <title>Chinese Language Films</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+
+
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap');
+			</style>
+			
+		
+		<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.0.4/scrollama.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+		
+    </head>
+    <body>
+		<div class="header">
+			<div class="intro">
+				<img src="assets/gate_trans.png" alt="Header Image">
+				<p class="main">Telling Stories in Chinatown:</p>
+				<p class="sub">Chinese-Language Theaters</p>
+				<p class="byline"><i>By Florina Sutanto</i></p>
+			</div>
+		</div>
+
+		<div>
+			<p class="main-body">
+				Like most cities in the East Coast, summers in downtown Boston are characterized by warmth, crowds, and perpetual indulgence. People seep out of their skyline offices early to frolic among leashed dogs and grass at the Boston Common, catch a movie at the nearby AMC, or sit for happy hour oysters and drinks. Some walk westward to bounce between the upscale boutiques of Newbury Street, and others head east to grab a bite at Chinatown. If you're in the mood for dim sum, look no further than the bright orange signs advertising the Empire Garden Restaurant, so bright they're visible from two blocks away. 
+				<br><br>
+				The Empire Garden is no ordinary restaurant. Its history spans back to 1903, when it was first known as the Globe Theater, a playhouse and cinema that staged vaudeville, burlesque, and musical comedies. In 1947, under the management of E.M. Loew, it was renamed Loew's Center Theater and screened double features — sometimes of soft core porn (a common genre in cinemas of the era). Later in 1981, Loew's became the Pagoda, a Chinese-language cinema that showed Hong Kong action films before it closed in 1995, the last of its kind in the city. As Empire Garden, the interior retains the old-fashioned grandeur of its predecessors: tall ceilings, oriental murals, ornately carved alcoves, chandeliers, and a lit-up proscenium. Customers dine on dumplings and cocktails under the opulent bones of a theater that has been standing for over a century.
+				<br><br>
+				pics of empire garden/pagoda
+				<br><br>
+				Once vibrant centers of entertainment and community in Chinatown and the infamous Combat Zone, Chinese-language cinemas like the Pagoda have since been lost to history. 
+            </p>
+        </div>
+
+        <div>
+            <h3 class = "section-header">Boston Chinatown: A Brief History</h3>
+        </div>
+
+		<!-- SCROLLAMA START -->
+		<section id="scrolly">
+			<div class="sticky-thing">
+				<div id="maps-container">
+					<img id="map-image" src="maps/Chinatown_1902.png" alt="Chinatown Map">
+				</div>
+			</div>
+  
+		  <div class="scrolly-overlay">
+			<div class="step" id="step-zero">
+			  	<p>The first wave of Chinese immigrants in Boston arrived in the 1870s. Many came from the West Coast, where they had worked on the gold rush and transcontinental railroad before being driven out by anti-Chinese sentiment and violence. The men were first employed as strike breakers and cheap productive labor for industrial factories in Massachusetts, then made a living by running laundries. Unable to reunite with their families due to the Chinese Exclusion Act and excluded from stable manufacturing jobs, these men lived isolated lives. Eventually, a ‘community base’ emerged on Harrison Avenue, populated by restaurants, grocery stores, barbers, gambling joints, and opium dens. This area was connected to major rail lines and served as a hub for Chinese laundrymen in the region.</p>
+			  	<p class="source">Source: <a href="https://www.chinatownatlas.org/era/bachelor-exclusion-era-1875-wwi/">Chinatown Atlas</a></p>
+			</div>
+			<div class="step" id="step-one">
+			  	<p>Despite the severity of the Exclusion Act, families began to form and the community expanded to accommodate schools, stores, and other establishments. The 1906 San Francisco earthquake and fires destroyed public birth records and gave the West Coast implants an opportunity to falsely claim U.S. citizenship, which paved the way for their wives, children, and relatives to gain citizenship status as well. Families would register fictitious children and sell or give away the papers; children brought to the U.S. under this scheme were called ‘paper sons’. Schools and social organizations were founded to educate the rising number of children. Movie theaters and nightclubs formed along the Theater District that overlapped with the expanding Chinatown, though many did not survive the Great Depresison. </p>
+			  	<p class="source">Source: <a href="https://www.chinatownatlas.org/era/wwi-wwii/">Chinatown Atlas</a>, <a href="https://www.loc.gov/classroom-materials/immigration/chinese/exclusion/">Library of Congress</a>, Wen-ti Tsen</p>
+			</div>
+			<div class="step" id="step-two">
+			  	<p>World War II marked a pivotal moment in the integration of Chinese Americans to the broader society. Hundreds of drafted soldiers returned to Boston and were able to obtain higher education via the GI Bill. Women were upskilled by working in offices and factories during the war. Major changes in immigration laws brought waves of Hong Kong immigrants to the South Cove; the majority dialect spoken in Chinatown thus switched from Taishanese to Cantonese, and the garment industry was kept afloat by skilled Chinese women. As the Chinatown population grew, new threats emerged in the 50s and 60s: the expansion of the Tufts-New England Medical Center continued to eat up property in the area, while the Central Artery and the Massachusetts Turnpike extension, which were built to alleviate congestion downtown, threatened to swallow Chinatown altogether. Hundreds of families were displaced and businesses destroyed until mayor John F. Collins stepped in with the South Cove Urban Renewal Plan, which stabilized urban development and addressed Chinatown’s needs and demands.
+				<br><br>
+				The formation of the Combat Zone on Washington Street became a social and safety threat to Chinatown. A red light district rife with strip clubs, porn cinemas, prostitution, crime, and drugs, its activities often spilled over the border and threatened the safety of Chinatown residents. Eventually, urban redevelopment projects and activism led to the dissolution of the Combat Zone in the 80s. 
+			  	</p>
+			  	<p class="source">Source: <a href="https://www.chinatownatlas.org/era/wwii-1970s/">Chinatown Atlas</a></p>
+			</div>
+			<div class="step" id="step-three">
+			  	<p>As more immigrants from East and Southeast Asia began to settle in Chinatown, residents who sought affordable housing began to move to the suburbs along the Green and Red transit lines, which maintained their access to the community hub downtown. College-educated activists formed social organizations to provide language and job training to new immigrants, negotiate for resources, strengthen health and housing services, and boost education and after-school programs. Housing projects such as the Mass Pike Towers, Tai Tung Village, Quincy Towers, and Castle Square provided affordable or subsidized housing for the working-class population.
+				<br><br>
+				The iconic Chinatown Gate featuring the phrase 天下为公 (meaning <i>everything under the sky is for the people</i>, or <i>the world belongs to all</i>) was donated by the Taiwanese government in 1982. 
+				</p>
+				<p class="source">Source: <a href="https://www.chinatownatlas.org/era/1970s-1980s/">Chinatown Atlas</a></p>
+			</div>
+			<div class="step" id="step-four">
+				<p>Chinatown is currently one of the most expensive residential neighborhoods in Boston. Long-time residents have found themselves priced out and pushed to the suburbs; less than half of those living in Chinatown identify as Asian, and many fall below the poverty line. Groups like the Asian Community Development Corporation and the Chinese Progressive Association continue to resist the gentrification crisis by opening up more affordable housing for residents, conserving parks and historically significant spaces, and pushing back against luxury developments that have been vying for space in the downtown real estate market. 
+				<br><br>
+				The Pao Art Center, located right next to the central highway that had displaced hundreds of families in one sweep, is an arts and cultural center that empowers community members using collaborative art. Films at the Gate, a youth-driven Chinese-language film festival, draws residents of Boston and beyond to Chinatown every summer to celebrate films and performances that range from lion dances to senior citizen fashion shows. 
+				<br><br>
+				The Boston Chinatown is the sole surviving Chinese enclave in New England. 
+				</p>
+				<p class="source">Source: <a href="https://www.chinatownatlas.org/era/1990s-present/">Chinatown Atlas</a>, <a href="https://www.thecrimson.com/article/2020/3/26/chinatown-scrut/">The Harvard Crimson</a>, <a href="https://www.nbcnews.com/news/asian-america/bostons-chinatown-sees-declining-asian-population-cost-living-grows-n459971">NBC News</a>
+				</p>
+			</div>
+		  </div>
+		</section>
+  
+		<script src="maps.js"></script>
+  
+
+		<!-- SCROLLAMA END -->
+
+		<div>
+            <h3 class = "section-header">Films in Chinatown</h3>
+        </div>
+
+		<div>
+			<p class="main-body">
+				map of theaters, jean, pictures
+            </p>
+        </div>
+
+		<div class="image">
+			<img src="assets/cinemas_new.png">
+		</div>
+			<p class="caption">
+				The live-action morphs were nowhere near as scary as what a 13 year old's mind could conjure in the dark. And those descriptions were <i>graphic</i>. <a class="a" href="https://myanimorphscollection.tumblr.com/post/179831954232/animorphs-tv-show-rachellion-original-press-photo">Source.</a>
+			</p>
+
+        
+
+		
+		
+        <p class= "link">
+			<a href="https://github.com/retrospatial/tumblr-fandometrics" title="github" target="_blank">
+				<i class="fa fa-github" style="font-size:45px; text-align: center; color:#9AA5DB"></i><br/>
+			</a>	
+
+	    </p>
+
+	</body>
+</html>
+
+

@@ -151,10 +151,21 @@ p {
   padding-bottom: 1em;
 }
 
+.image-small {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+
 .caption {
   max-width: 500px;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   padding-top: 1.5em;
   padding-bottom: 2em;
   font-size: 14px;
